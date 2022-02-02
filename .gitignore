@@ -3,8 +3,8 @@
 target/
 
 # Log file
-*.log
-log/
+#*.log
+#logs/
 
 # IDEA
 *.iml
