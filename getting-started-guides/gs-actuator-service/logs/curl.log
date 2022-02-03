@@ -1,0 +1,8 @@
+
+
+curl "http://localhost:8080/hello?name=World"
+{"id":1,"content":"Hello, World!"}
+
+curl "http://localhost:9001/actuator/health"
+{"status":"UP"}
+

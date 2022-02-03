@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: gs-actuator-service
+
+server:
+  port: 8080
+
+management:
+  server:
+    address: 127.0.0.1
+    port: 9001
+    ssl:
+      enabled: false
