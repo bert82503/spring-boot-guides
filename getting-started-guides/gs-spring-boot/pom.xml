@@ -16,7 +16,7 @@
   <artifactId>gs-spring-boot</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Building an Application with Spring Boot</name>
+  <name>03.Building an Application with Spring Boot</name>
   <url>https://spring.io/guides/gs/spring-boot/</url>
 
   <properties>

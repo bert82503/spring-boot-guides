@@ -9,12 +9,12 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Getting Started Guides</name>
+  <name>02.Getting Started Guides</name>
   <url>https://spring.io/guides</url>
 
   <modules>
-    <module>gs-rest-service</module>
     <module>gs-spring-boot</module>
+    <module>gs-rest-service</module>
   </modules>
 
 </project>

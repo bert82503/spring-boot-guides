@@ -9,7 +9,7 @@
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>Spring Guides</name>
+  <name>01.Spring Guides</name>
   <url>https://github.com/spring-guides/</url>
 
   <modules>

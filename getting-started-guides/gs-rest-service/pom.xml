@@ -16,7 +16,7 @@
   <artifactId>gs-rest-service</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>Building a RESTful Web Service</name>
+  <name>04.Building a RESTful Web Service</name>
   <url>https://spring.io/guides/gs/rest-service/</url>
 
   <properties>

@@ -1,6 +1,6 @@
 
 
-spring-boot-guides
+Spring Boot Guides
 ======
 > [Spring Guides](https://spring.io/guides)
 
