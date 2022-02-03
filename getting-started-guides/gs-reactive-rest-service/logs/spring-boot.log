@@ -1,0 +1,20 @@
+
+
+/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java -XX:TieredStopAtLevel=1 -noverify -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dspring.jmx.enabled=true -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true com.example.reactiverestservice.ReactiveRestServiceApplication
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.3)
+
+2022-02-03 16:57:17.920  INFO 96239 --- [           main] c.e.r.ReactiveRestServiceApplication     : Starting ReactiveRestServiceApplication using Java 1.8.0_151 on guangyi.local with PID 96239 (/Users/guangyi/Documents/workspace/GitHub/spring-boot-guides/getting-started-guides/gs-reactive-rest-service/target/classes started by guangyi in /Users/guangyi/Documents/workspace/GitHub/spring-boot-guides)
+2022-02-03 16:57:17.924  INFO 96239 --- [           main] c.e.r.ReactiveRestServiceApplication     : No active profile set, falling back to default profiles: default
+// 基于netty的web服务器
+2022-02-03 16:57:19.521  INFO 96239 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-02-03 16:57:19.530  INFO 96239 --- [           main] c.e.r.ReactiveRestServiceApplication     : Started ReactiveRestServiceApplication in 1.947 seconds (JVM running for 2.651)
+
+>> message = Hello, Spring Boot!
+
