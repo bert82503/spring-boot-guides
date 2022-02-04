@@ -14,6 +14,8 @@
 2022-02-05 00:26:17.176  INFO 16258 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
 2022-02-05 00:26:17.193  INFO 16258 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
 
+2022-02-05 00:26:17.422  INFO 16798 --- [           main] com.example.reactive.redis.CoffeeLoader  : load cache data start
+2022-02-05 00:26:17.658  INFO 16798 --- [           main] com.example.reactive.redis.CoffeeLoader  : load cache data end
 setKey: [setValue3, setValue2, setValue1]
 hashKey: [Edward Lee, 369]
 

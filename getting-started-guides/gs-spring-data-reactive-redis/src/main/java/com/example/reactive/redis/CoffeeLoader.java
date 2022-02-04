@@ -7,6 +7,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.redis.connection.ReactiveRedisConnectionFactory;
 import org.springframework.data.redis.core.ReactiveRedisOperations;
 import org.springframework.stereotype.Component;
@@ -20,6 +21,7 @@ import org.springframework.stereotype.Component;
  * @since 2022-02-04
  */
 @SuppressWarnings("unused")
+@Slf4j
 @Component("coffeeLoader")
 public class CoffeeLoader {
 
@@ -39,6 +41,8 @@ public class CoffeeLoader {
 
     @PostConstruct
     public void loadData() {
+        log.info("load cache data start");
+
         // string-字符串
         connectionFactory.getReactiveConnection()
                 .serverCommands()
@@ -93,5 +97,7 @@ public class CoffeeLoader {
 //                        .flatMap(redisOperations.opsForValue()::get)
 //                )
 //                .subscribe(System.out::println);
+
+        log.info("load cache data end");
     }
 }
