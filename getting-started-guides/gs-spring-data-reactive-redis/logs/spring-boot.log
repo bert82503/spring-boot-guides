@@ -1,0 +1,21 @@
+/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java -XX:TieredStopAtLevel=1 -noverify -Dspring.output.ansi.enabled=always -Dcom.sun.management.jmxremote -Dspring.jmx.enabled=true -Dspring.liveBeansView.mbeanDomain -Dspring.application.admin.enabled=true com.example.reactive.redis.ReactiveRedisApplication
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.3)
+
+2022-02-05 00:26:16.678  INFO 16258 --- [           main] c.e.r.redis.ReactiveRedisApplication     : Starting ReactiveRedisApplication using Java 1.8.0_151 on guangyi.local with PID 16258 (/Users/guangyi/Documents/workspace/GitHub/spring-boot-guides/getting-started-guides/gs-spring-data-reactive-redis/target/classes started by guangyi in /Users/guangyi/Documents/workspace/GitHub/spring-boot-guides)
+2022-02-05 00:26:16.681  INFO 16258 --- [           main] c.e.r.redis.ReactiveRedisApplication     : No active profile set, falling back to default profiles: default
+2022-02-05 00:26:17.173  INFO 16258 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-02-05 00:26:17.176  INFO 16258 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-02-05 00:26:17.193  INFO 16258 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+
+setKey: [setValue3, setValue2, setValue1]
+hashKey: [Edward Lee, 369]
+
+2022-02-05 00:26:18.580  INFO 16258 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8080
+2022-02-05 00:26:18.590  INFO 16258 --- [           main] c.e.r.redis.ReactiveRedisApplication     : Started ReactiveRedisApplication in 2.237 seconds (JVM running for 2.777)

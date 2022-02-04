@@ -17,6 +17,7 @@
     <module>gs-rest-service</module>
     <module>gs-reactive-rest-service</module>
     <module>gs-actuator-service</module>
+    <module>gs-spring-data-reactive-redis</module>
   </modules>
 
 </project>
