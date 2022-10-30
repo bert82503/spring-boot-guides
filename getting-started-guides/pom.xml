@@ -18,6 +18,7 @@
     <module>gs-reactive-rest-service</module>
     <module>gs-actuator-service</module>
     <module>gs-spring-data-reactive-redis</module>
+    <module>gs-spring-boot-docker</module>
   </modules>
 
 </project>
